@@ -4,24 +4,65 @@
 	<meta charset="utf-8">
 	<title>WHY NOT BOAT? Studio</title>
 	<style>
+
 		h1 {
 			color: #FFD600;
-			font-size: 25px;
+			font-size: 20px;
 			width: 2000px;
+			background-color: #3F3F3F;
 		}
 
-		a{
-			color: red;
+		#red {
+			color: indianred;
 			font-size: 18px;
 		}
+
+		.green {
+			color: seagreen;
+		}
+
+		.osize {
+			font-size: 40px;
+		}
+
+		.msize {
+			font-size: 32px;
+		}
+		lista li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: #FFD600;
+			border: 2px solid #374151;
+			color: #374151;
+			display: block;
+			width: 170px;
+			height: 21px;
+			text-align: center;
+		}
+
 	</style>
 </head>
 <body>
 	<img src="\grphs\logo-color.png" width="280" height="280">
-	<h1>This will be a page for WHY NOT BOAT? Studio.</h1>
+	<h1>This will be a page for
+		<span class="osize">WHY NOT BOAT?</span> 
+		<span class="msize">Studio</span>.
+	</h1>
 	<h3>When I will finally learn how to code it...</h3>
-	</br>
-	<h4><a href="testlink.html" title="Internal link">This is Internal link</a></h4>
-	<h4><a href="\sps\testlink.html" target="_blank" title="External link">This is External link</a></h4>
+	<br>
+	<h4><a class="green" href="testlink.html" title="Internal link">This is Internal link</a></h4>
+	<h4><a id="red" href="\sps\testlink.html" target="_blank" title="External link">This is External link</a></h4>
+	<br>
+	<h4>Potential menu:</h4>
+	<lista>
+	<ul>
+		<li>Web Apps</li>
+		<li>Python Apps/Scripts</li>
+		<li>Games</li>
+		<li>Articles</li>
+	</ul>
+	</lista>
 </body>
 </html>
