@@ -1,0 +1,48 @@
+body {
+	background-color: #3F3F3F;
+	color: #FFD600;
+}
+
+h1 {
+	color: #FFD600;
+	font-size: 20px;
+	width: 1800px;
+	background-color: #3F3F3F;
+}
+
+.osize {
+	font-size: 40px;
+}
+
+.msize {
+	font-size: 32px;
+}
+
+lista li {
+	list-style: none;
+}
+
+lista li:nth-child(3) {
+	font-size: 23px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: #FFD600;
+	border: 2px solid #374151;
+	color: #374151;
+	display: block;
+	width: 170px;
+	height: 21px;
+	text-align: center;
+	margin-block: 33px;
+}
+
+a:hover, a:active {
+	background-color: #374151;
+	color: #FFD600;
+	display: block;
+	width: 190px;
+	height: 25px;
+	cursor: cell;
+}
